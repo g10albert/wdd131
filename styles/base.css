@@ -24,6 +24,7 @@ header {
   display: block;
   text-align: center;
   padding: 20px 0;
+  color: white;
 }
 
 ul {
@@ -57,6 +58,7 @@ h1 {
   border-top-left-radius: 10px;
   padding: 10px 0;
   font-weight: 500;
+  color: white;
 }
 
 main {
