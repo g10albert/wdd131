@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
 :root {
   --main-color: #b13bff;
 }
@@ -34,11 +32,11 @@ ul {
   justify-content: space-around;
   align-items: center;
   background: #000;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
