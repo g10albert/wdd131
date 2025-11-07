@@ -17,8 +17,8 @@
     position: static;
   }
 
-  .menu_link a:hover {
+  a:hover {
     border-bottom: 2px solid white;
-    transition: all .04s ease-in-out;
+    transition: all .4s ease-in-out;
   }
 }

@@ -16,10 +16,7 @@ figure {
 a {
   text-decoration: none;
   color: white;
-}
-
-ul {
-  list-style-type: none;
+  border-bottom: 2px solid transparent;
 }
 
 header {
