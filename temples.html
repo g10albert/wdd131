@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <meta name="description" content="Website that displays pictures of LDS temples around the world in a gallery">
   <meta name="author" content="Albert Garcia">
   <link rel="stylesheet" href="./styles/temples.css">
@@ -14,56 +18,64 @@
 
 <body>
   <header>
-    <a href="#">Temple album</a>
+    <div>
+      <a href="#">Temple album</a>
+    </div>
     <nav>
-      <li><a href="">Home</a></li>
-      <li><a href="">Old</a></li>
-      <li><a href="">New</a></li>
-      <li><a href="">Large</a></li>
-      <li><a href="">Small</a></li>
+      <p id="menuBtn">&#9776;</p>
+      <ul id="menu" class="menu_close">
+        <li class="menu_link"><a href="">Home</a></li>
+        <li class="menu_link"><a href="">Old</a></li>
+        <li class="menu_link"><a href="">New</a></li>
+        <li class="menu_link"><a href="">Large</a></li>
+        <li class="menu_link"><a href="">Small</a></li>
+        <li class="menu_link" id="menuCloseBtn">&times;</li>
+      </ul>
     </nav>
   </header>
   <main>
-    <h1>kk</h1>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
-    <figure>
-      <img src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
-      <figcaption>Albuquerque temple</figcaption>
-    </figure>
+    <h1 class="title">Home</h1>
+    <div class="gallery">
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/albuquerque_temple.webp" alt="albuquerque temple" width="150px">
+        <figcaption class="gallery_caption">Albuquerque temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/asuncion_paraguay_temple.jpeg" alt="Asuncion Paraguay temple" width="150px">
+        <figcaption class="gallery_caption">Asuncion Paraguay temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/atlanta_temple_lds.jpeg" alt="Atlanta temple" width="150px">
+        <figcaption class="gallery_caption">Atlanta temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/bangkok_thailand_temple_exteriors.jpeg" alt="Bangkok Thailand temple" width="150px">
+        <figcaption class="gallery_caption">Bangkok Thailand temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/birmingham_alabama_temple_lds.jpeg" alt="Birmingham Alabama temple" width="150px">
+        <figcaption class="gallery_caption">Birmingham Alabama temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/boise_idaho_temple_exterior_2012.jpeg" alt="Boise Idaho temple" width="150px">
+        <figcaption class="gallery_caption">Albuquerque temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/boston_temple_lds.jpeg" alt="Boston temple" width="150px">
+        <figcaption class="gallery_caption">Boston temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/bountiful_temple_lds.jpeg" alt="Bountiful temple" width="150px">
+        <figcaption class="gallery_caption">Bountiful temple</figcaption>
+      </figure>
+      <figure class="gallery_item">
+        <img class="gallery_photo" src="./images/brasilia_brazil_temple_exterior.jpeg" alt="Brasilia Brazil temple" width="150px">
+        <figcaption class="gallery_caption">Brasilia Brazil temple</figcaption>
+      </figure>
+    </div>
   </main>
   <footer>
-    <p>©️<span id="currentYear">2025</span> ➖ Albert Miguel Garcia Sanchez ➖ Dominican Republic</p>
+    <p>&copy;<span id="currentYear">2025</span> - Albert Miguel Garcia Sanchez - Dominican Republic</p>
     <p id="lastModified"></p>
   </footer>
 </body>
