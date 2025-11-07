@@ -30,7 +30,7 @@ header {
   font-size: 1.3rem;
 }
 
-#menu {
+nav {
   background: var(--main-color);
   height: 300px;
   display: flex;

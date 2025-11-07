@@ -7,7 +7,7 @@
     display: none;
   }
 
-  #menu {
+  nav {
     height: auto;
     flex-direction: row;
     width: 40vw;
