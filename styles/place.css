@@ -52,7 +52,7 @@ li span {
   font-weight: 500;
 }
 
-.weater-svg {
+.weather-svg {
   width: 60px;
   margin-bottom: 20px;
 }
@@ -103,7 +103,7 @@ main {
   margin-left: 5px;
 }
 
-.weater-svg {
+.weather-svg {
   display: none;
 }
 
