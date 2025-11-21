@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  #menuBtn {
+    display: none;
+  }
+
+  #menuCloseBtn {
+    display: none;
+  }
+
+  nav {
+    height: auto;
+    flex-direction: row;
+    width: 40vw;
+  }
+
+  .menu_close {
+    position: static;
+  }
+
+  a:hover {
+    border-bottom: 2px solid white;
+    transition: all .4s ease-in-out;
+  }
+}

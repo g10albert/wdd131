@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <meta name="description" content="Website that displays pictures of LDS temples around the world in a gallery">
+  <meta name="author" content="Albert Garcia">
+  <link rel="stylesheet" href="./styles/filteres-temples.css">
+  <link rel="stylesheet" href="./styles/filtered-temples-large.css">
+  <script defer src="./scripts/filtered-temples.js"></script>
+  <title>Temple album</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <a href="#">Temple album</a>
+    </div>
+    <div>
+      <p id="menuBtn">&#9776;</p>
+      <nav id="menu" class="menu_close">
+        <a class="menu_link" id="home" href="#">Home</a>
+        <a class="menu_link" id="old" href="#">Old</a>
+        <a class="menu_link" id="new" href="#">New</a>
+        <a class="menu_link" id="large" href="#">Large</a>
+        <a class="menu_link" id="small" href="#">Small</a>
+        <a class="menu_link" id="menuCloseBtn">&times;</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1 class="title">Home</h1>
+    <div class="gallery">
+      <div class="card">
+        <h3>NAME</h3>
+        <p>Location: here</p>
+        <p>Dedicated: date</p>
+        <p>Size: 21312</p>
+        <figure class="gallery_item">
+          <img class="gallery_photo" src="https://churchofjesuschristtemples.org/assets/img/temples/asuncion-paraguay-temple/asuncion-paraguay-temple-6969-main.jpg" alt="albuquerque temple">
+        </figure>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentYear">2025</span> - Albert Miguel Garcia Sanchez - Dominican Republic</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>
