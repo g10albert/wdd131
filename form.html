@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/form.css">
   <script defer src="./scripts/form.js"></script>
-  <title>Document</title>
+  <meta name="author" content="Albert Garcia">
+  <meta name="description" content="Website with a simple form to submit item reviews">
+  <title>Product Reviews</title>
 </head>
 
 <body>
@@ -15,37 +17,34 @@
   </header>
 
   <main>
-    <form id="form" action="" method="get">
+    <form id="form" action="review.html" method="get">
 
 
       <label>Product Name <br>
         <select name="product" id="product-selection" required>
-          <option value="Select a Product" disabled selected>Select a Product</option>
         </select>
       </label>
-      </div>
-
 
       <div class="radios">
         <div class="radio">
           <label for="rating">&star;</label>
-          <input type="radio" name="rating" id="" required>
+          <input type="radio" name="radio" id="rating1" required>
         </div>
         <div class="radio">
           <label for="rating">&star;&star;</label>
-          <input type="radio" name="rating" id="" required>
+          <input type="radio" name="radio" id="rating2" required>
         </div>
         <div class="radio">
           <label for="rating">&star;&star;&star;</label>
-          <input type="radio" name="rating" id="" required>
+          <input type="radio" name="radio" id="rating3" required>
         </div>
         <div class="radio">
           <label for="rating">&star;&star;&star;&star;</label>
-          <input type="radio" name="rating" id="" required>
+          <input type="radio" name="radio" id="rating4" required>
         </div>
         <div class="radio">
           <label for="rating">&star;&star;&star;&star;&star;</label>
-          <input type="radio" name="rating" id="" required>
+          <input type="radio" name="radio" id="rating5" required>
         </div>
       </div>
 
@@ -58,18 +57,18 @@
       <div class="checkboxes">
         <p>Which features did you find usefil in the product?</p>
         <p>(Check all that apply)</p>
-        <label><input type="checkbox" id="" name="" value=""> Durability</label><br>
-        <label><input type="checkbox" id="" name="" value=""> Ease of use</label><br>
-        <label><input type="checkbox" id="" name="" value=""> Performance</label><br>
-        <label><input type="checkbox" id="" name="" value=""> Design</label>
+        <label for="check1"><input type="checkbox" id="check1" name="check1" value="Durability"> Durability</label><br>
+        <label for="check2"><input type="checkbox" id="check2" name="check2" value="Ease of use"> Ease of use</label><br>
+        <label for="check3"><input type="checkbox" id="check3" name="check3" value="Performance"> Performance</label><br>
+        <label for="check4"><input type="checkbox" id="check4" name="check4" value="Design"> Design</label>
       </div>
 
 
       <label>Written Review <span>(optional)</span><br>
-        <textarea name="" id=""></textarea>
+        <textarea name="textarea" id="textarea"></textarea>
       </label>
 
-      <label>Your Name <span>(optional) <br></span><input class="name" type="text" id="" name="name"></label>
+      <label>Your Name <span>(optional) <br></span><input class="name" type="text" id="yourname" name="name"></label>
       <br>
       <input type="submit" id="submit" value="Send Review">
 
