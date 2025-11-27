@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/form.css">
+  <script defer src="./scripts/form.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+
+  <main>
+    <form id="form" action="" method="get">
+
+
+      <label>Product Name <br>
+        <select name="product" id="product-selection" required>
+          <option value="Select a Product" disabled selected>Select a Product</option>
+        </select>
+      </label>
+      </div>
+
+
+      <div class="radios">
+        <div class="radio">
+          <label for="rating">&star;</label>
+          <input type="radio" name="rating" id="" required>
+        </div>
+        <div class="radio">
+          <label for="rating">&star;&star;</label>
+          <input type="radio" name="rating" id="" required>
+        </div>
+        <div class="radio">
+          <label for="rating">&star;&star;&star;</label>
+          <input type="radio" name="rating" id="" required>
+        </div>
+        <div class="radio">
+          <label for="rating">&star;&star;&star;&star;</label>
+          <input type="radio" name="rating" id="" required>
+        </div>
+        <div class="radio">
+          <label for="rating">&star;&star;&star;&star;&star;</label>
+          <input type="radio" name="rating" id="" required>
+        </div>
+      </div>
+
+
+      <div class="date">
+        <label>Date of installation <br><input type="date" id="" name="date" required></label>
+      </div>
+
+
+      <div class="checkboxes">
+        <p>Which features did you find usefil in the product?</p>
+        <p>(Check all that apply)</p>
+        <label><input type="checkbox" id="" name="" value=""> Durability</label><br>
+        <label><input type="checkbox" id="" name="" value=""> Ease of use</label><br>
+        <label><input type="checkbox" id="" name="" value=""> Performance</label><br>
+        <label><input type="checkbox" id="" name="" value=""> Design</label>
+      </div>
+
+
+      <label>Written Review <span>(optional)</span><br>
+        <textarea name="" id=""></textarea>
+      </label>
+
+      <label>Your Name <span>(optional) <br></span><input class="name" type="text" id="" name="name"></label>
+      <br>
+      <input type="submit" id="submit" value="Send Review">
+
+    </form>
+  </main>
+
+  <footer>
+    <p>©️<span id="currentYear">2025</span> ➖ Albert Miguel Garcia Sanchez ➖ Dominican Republic</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+
+</html>
