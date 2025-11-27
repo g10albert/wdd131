@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./styles/form.css">
   <script defer src="./scripts/form.js"></script>
   <meta name="author" content="Albert Garcia">
-  <meta name="description" content="Website with a simple form to submit item reviews">
+  <meta name="description" content="a simple website with a simple form to submit item reviews">
   <title>Product Reviews</title>
 </head>
 
@@ -20,37 +20,38 @@
     <form id="form" action="review.html" method="get">
 
 
-      <label>Product Name <br>
+      <label for="product-selection">Product Name <br>
         <select name="product" id="product-selection" required>
+          <option value="product">Option</option>
         </select>
       </label>
 
       <div class="radios">
         <div class="radio">
-          <label for="rating">&star;</label>
-          <input type="radio" name="radio" id="rating1" required>
+          <label for="rating1">&star;</label>
+          <input value="1" type="radio" name="radio" id="rating1" required>
         </div>
         <div class="radio">
-          <label for="rating">&star;&star;</label>
-          <input type="radio" name="radio" id="rating2" required>
+          <label for="rating2">&star;&star;</label>
+          <input value="2" type="radio" name="radio" id="rating2" required>
         </div>
         <div class="radio">
-          <label for="rating">&star;&star;&star;</label>
-          <input type="radio" name="radio" id="rating3" required>
+          <label for="rating3">&star;&star;&star;</label>
+          <input value="3" type="radio" name="radio" id="rating3" required>
         </div>
         <div class="radio">
-          <label for="rating">&star;&star;&star;&star;</label>
-          <input type="radio" name="radio" id="rating4" required>
+          <label for="rating4">&star;&star;&star;&star;</label>
+          <input value="4" type="radio" name="radio" id="rating4" required>
         </div>
         <div class="radio">
-          <label for="rating">&star;&star;&star;&star;&star;</label>
-          <input type="radio" name="radio" id="rating5" required>
+          <label for="rating5">&star;&star;&star;&star;&star;</label>
+          <input value="5" type="radio" name="radio" id="rating5" required>
         </div>
       </div>
 
 
       <div class="date">
-        <label>Date of installation <br><input type="date" id="" name="date" required></label>
+        <label for="date">Date of installation <br><input type="date" id="date" name="date" required></label>
       </div>
 
 
